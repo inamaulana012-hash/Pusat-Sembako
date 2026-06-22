@@ -1,0 +1,23 @@
+{
+    "name": "inamaulana/pusat-sembako",
+    "description": "Sistem Kasir, Admin, dan Pembeli untuk Pusat Sembako",
+    "license": "MIT",
+    "type": "project",
+    "require": {
+        "php": "^8.1",
+        "codeigniter4/framework": "^4.4",
+        "codeigniter4/coding-standard": "^1.5"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\": "app",
+            "Config\\": "app/Config"
+        }
+    },
+    "scripts": {
+        "test": "phpunit"
+    }
+}
